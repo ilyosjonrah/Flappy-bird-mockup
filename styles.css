@@ -5,3 +5,8 @@ body{
 
     background-color: #333;
 }
+
+@font-face {
+    font-family: 'FlappybirdFont';
+    src: url('./assets/flappy-bird-font.ttf') format('truetype');
+}
