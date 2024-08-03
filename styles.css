@@ -1,12 +1,60 @@
-body{
+body {
     padding: 0;
     margin: 0;
-    overflow: hidden;
-
     background-color: #333;
+
 }
 
 @font-face {
     font-family: 'FlappybirdFont';
     src: url('./assets/flappy-bird-font.ttf') format('truetype');
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+#canvas {
+    border-radius: 10px;
+}
+
+.message {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    width: 280px;
+    padding: 1rem;
+    border-radius: 15px;
+    height: auto;
+    background-color: #424242;
+    color: rgb(190, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message>h1 {
+    font-weight: 100;
+}
+
+.message>p {
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.message a {
+    text-decoration: none;
+    color: white;
+}
+
+.message>span {
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 480px) {
+    .container{
+        margin: 0;
+    }
 }
