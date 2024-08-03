@@ -76,7 +76,7 @@ let score = 0
 let isKeyPressed = false
 
 // Load Fonts
-const loadFont = new FontFace('FlappybirdFont', 'url(./assets/flappy-bird-font.ttf)')
+const loadFont = new FontFace('FlappybirdFont', 'url(./assets/flappy-bird-font.TTF)')
 loadFont.load().then(function (font) {
     document.fonts.add(font)
 }).catch(function (error) {
