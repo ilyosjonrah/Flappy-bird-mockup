@@ -57,4 +57,7 @@ body {
     .container{
         margin: 0;
     }
+    #canvas{
+        border-radius: 0;
+    }
 }
